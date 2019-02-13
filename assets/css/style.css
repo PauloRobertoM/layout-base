@@ -66,17 +66,11 @@ ul.nav>li>a:hover {
     font-weight: 700;
 }
 
-#canvas_container {
-  width: 289.61084px;
-  border: 1px solid #aaa;
-}
-
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     #bs-example-navbar-collapse-1 {
         float: none;
-        background: url(../images/topo.jpg) no-repeat;
-        background-size: cover;
+        background: transparent;
         z-index: 300;
         position: relative;
         min-height: 300px;
