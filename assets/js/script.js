@@ -1,10 +1,12 @@
 (function($, window) {
-    $('#owl-vitrine').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
         margin: 0,
-        nav: false,
+        nav: true,
+        navText: [""],
         dots: false,
+
         responsive:{
             0:{
                 items:1

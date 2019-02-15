@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-default {
-    background: transparent;
+    background: #ffffff;
     border-color: transparent;
     height: 110px;
     border-radius: 0;
@@ -58,12 +58,46 @@ ul.nav {
 }
 ul.nav>li>a {
     font-size: 14px;
-    color: #631528!important;
+    color: #535353!important;
     text-transform: uppercase;
     padding: 10px 5px;
 }
 ul.nav>li>a:hover {
     font-weight: 700;
+    color: #eb754b!important;
+}
+
+.vitrine .owl-prev {
+    background-image: url("../images/prev.png");
+    background-repeat: no-repeat;
+    height: 63px;
+    position: absolute;
+    width: 64px;
+    top: 33%;
+    left: 17%;
+}
+
+.vitrine .owl-next {
+    background-image: url("../images/next.png");
+    background-repeat: no-repeat;
+    height: 63px;
+    position: absolute;
+    width: 64px;
+    top: 33%;
+    right: 17%;
+}
+
+/*SOBRE*/
+section .container {
+    display: flex;
+    padding: 90px 0;
+}
+.container .sobre-texto {
+    margin-left: 50px;
+}
+
+.container .sobre-texto h2, h1 {
+    color: #ea6837;
 }
 
 /* --- MOBILE --- */
