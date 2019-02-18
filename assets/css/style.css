@@ -1,9 +1,11 @@
 * {
     outline: none;
 }
-a {
+a,
+button {
     text-decoration: none!important;
     cursor: pointer!important;
+    transition: 1s;
 }
 p {
     line-height: 1.5;
@@ -68,23 +70,27 @@ ul.nav>li>a:hover {
 }
 
 .vitrine .owl-prev {
-    background-image: url("../images/prev.png");
-    background-repeat: no-repeat;
-    height: 63px;
     position: absolute;
-    width: 64px;
     top: 33%;
     left: 17%;
 }
 
 .vitrine .owl-next {
-    background-image: url("../images/next.png");
-    background-repeat: no-repeat;
-    height: 63px;
     position: absolute;
-    width: 64px;
     top: 33%;
     right: 17%;
+}
+
+.vitrine .fa-angle-left {
+    font-size: 70px;
+    color: #ea6837;
+    text-shadow: 5px 3px 20px #000000;
+}
+
+.vitrine .fa-angle-right {
+    font-size: 70px;
+    color: #ea6837;
+    text-shadow: 5px 3px 20px #000000;
 }
 
 /*SOBRE*/
@@ -99,6 +105,34 @@ section .container {
 .container .sobre-texto h2, h1 {
     color: #ea6837;
 }
+
+.btn-geral {
+    background-color: #ea6837;
+    padding: 17px;
+    color: #fff;
+    border-radius: 7px;
+    padding-top: 15px;
+}
+
+.container .paragrafo-sobre {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/*DESTAQUE*/
+
+.destaque {
+    display: flex;
+}
+
+.destaque .consultoria-texto {
+    background-color: #ea6837;
+    color: #fff;
+    padding: 20px 200px 70px 80px;
+    text-align: justify;
+}
+
+
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {

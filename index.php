@@ -18,12 +18,41 @@
 		<div class="sobre-texto">
 			<h2>Sobre</h2>
 			<h1>Vanielly</h1>
-			<p>Profissional com sólida carreira desenvolvida na área de GESTÃO, vendas e atendimento ao cliente, com destacada experiência em gestão de equipes, treinamento, recrutamento e seleção, nos segmentos de varejo e serviços.</p>
-			<p>Atuação em gestão comercial, administrativa e financeira, com vivência no planejamento e gestão estratégica de vendas, prospecção, estudo e acompanhamento de mercado, desenvolvimento, implementação de ações voltadas ao aumento da visibilidade da empresa e expansão de resultados.</p>
-			<button><a href="#">Saiba mais</a></button>
+			<div class="paragrafo-sobre">
+				<p>Profissional com sólida carreira desenvolvida na área de GESTÃO, vendas e atendimento ao cliente, com destacada experiência em gestão de equipes, treinamento, recrutamento e seleção, nos segmentos de varejo e serviços.</p>
+				<p>Atuação em gestão comercial, administrativa e financeira, com vivência no planejamento e gestão estratégica de vendas, prospecção, estudo e acompanhamento de mercado, desenvolvimento, implementação de ações voltadas ao aumento da visibilidade da empresa e expansão de resultados.</p>
+			</div>
+			<a class="btn-geral" href="#">SAIBA MAIS</a>
 		</div>
 	</div>
 </section>
 
+<section>
+	<div class="destaque">
+		<div class="img-destaque">
+			<img src="assets/images/img-destaque.jpg" alt="">
+		</div>
+		<div class="consultoria-texto">
+			<h2>Consultoria</h2>
+			<p>s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only fiverasetons of Lorem Ipsum.</p>
+			<ul>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Diagnóstico Empresarial</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria Empresarial</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Seleção e capacitação de vendedores</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Negócio de Impacto Social</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Mapeamento de processos</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Treinamentos e palestras</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Empreendedorismo</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Plano de Marketing</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Pesquisa de satisfação do Cliente</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Cliente oculto</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Acompanhamento de planos e metas</li>
+			</ul>
+		</div>
+	</div>
+	
+</section>
+
+	
 	
 <?php include 'components/footer.php'; ?>
