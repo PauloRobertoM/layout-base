@@ -94,15 +94,15 @@ ul.nav>li>a:hover {
 }
 
 /*SOBRE*/
-section .container {
-    display: flex;
-    padding: 90px 0;
+.sobre {
+    margin: 100px;
 }
-.container .sobre-texto {
+
+.sobre .sobre-texto {
     margin-left: 50px;
 }
 
-.container .sobre-texto h2, h1 {
+.sobre .sobre-texto h2, h1 {
     color: #ea6837;
 }
 
@@ -114,7 +114,7 @@ section .container {
     padding-top: 15px;
 }
 
-.container .paragrafo-sobre {
+.sobre .paragrafo-sobre {
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -124,12 +124,64 @@ section .container {
 .destaque {
     display: flex;
 }
+.destaque .img-destaque img {
+    height: 450px;
+}
 
 .destaque .consultoria-texto {
     background-color: #ea6837;
     color: #fff;
-    padding: 20px 200px 70px 80px;
+    padding: 20px 250px 70px 80px;
     text-align: justify;
+    height: 450px;
+}
+
+.destaque .consultoria-texto ul {
+    padding: 0;
+    float: left;
+    line-height: 33px;
+    margin: 20px;
+}
+
+.destaque .consultoria-texto .fa {
+    color: #01123a;
+    margin-right: 10px;
+}
+
+.destaque .consultoria-texto .texto-preto {
+    color: #000;
+}
+
+/*ÁREA DO CLIENTE*/
+
+.area-cliente {
+    margin: 90px 0;
+}
+
+.area-texto {
+    display: flex;
+}
+
+.area-cliente .img-area {
+    position: absolute;
+}
+
+.area-cliente .area-texto {
+    color: #ffffff;
+    position: absolute;
+    margin: 60px 0;
+    width: 1152px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.area-cliente .form-area input {
+    background-color: transparent;
+    height: 49px;
+    width: 215px;
+    border-radius: 7px;
+    border-width: 1px;
 }
 
 
