@@ -156,14 +156,13 @@ ul.nav>li>a:hover {
 
 .area-cliente {
     margin: 90px 0;
+    background-image: url('../images/bg-cliente.jpg');
+    height: 250px;
+    width: 1152px;
 }
 
 .area-texto {
     display: flex;
-}
-
-.area-cliente .img-area {
-    position: absolute;
 }
 
 .area-cliente .area-texto {
@@ -176,7 +175,7 @@ ul.nav>li>a:hover {
     justify-content: space-around;
 }
 
-.area-cliente .form-area input {
+.form-area input {
     background-color: transparent;
     height: 49px;
     width: 215px;
@@ -184,7 +183,17 @@ ul.nav>li>a:hover {
     border-width: 1px;
 }
 
+/*FALE CONOSCO*/
+.fale-conosco h2 {
+    text-align: center;
+    color: #ea6837;
+    margin-bottom: 40px;
+} 
 
+.fale-conosco .form-group {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {

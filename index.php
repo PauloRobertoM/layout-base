@@ -64,9 +64,6 @@
 <section>
 	<div class="container">
 		<div class="area-cliente">
-			<div class="img-area">
-				<img src="assets/images/bg-cliente.jpg" alt="">
-			</div>
 			<div class="area-texto">
 				<div class="form-texto">
 					<h3>Área do Cliente</h3>
@@ -79,6 +76,29 @@
 					<a class="btn-geral" href="">Enviar</a>
 				</div>
 			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="fale-conosco">
+			<h2><strong>Fale conosco</strong></h2>
+			<form>
+				<div class="form-row">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Seu nome">
+					</div>
+					<div class="form-group col-md-6">
+						<input type="text" class="form-control" placeholder="E-mail">
+					</div>
+					<div class="form-group col-md-6">
+						<input type="text" class="form-control" placeholder="Telefone">
+					</div>
+					<textarea class="form-control" placeholder="Mensagem" rows="6"></textarea>
+				</div>
+				<a class="btn-geral" href="">Enviar</a>
+			</form>
 		</div>
 	</div>
 </section>
