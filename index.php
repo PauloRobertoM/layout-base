@@ -6,7 +6,6 @@
 			<a class="item" href="#"><img src="assets/images/banner-vanielly.jpg" alt=""></a>
 			<a class="item" href="#"><img src="assets/images/banner-vanielly.jpg" alt=""></a>
 		</div>
-
 	</div>
 </section>
 
@@ -28,7 +27,6 @@
 				</div>
 				<a class="btn-geral" href="#">SAIBA MAIS</a>
 				</div>
-				
 			</div>
 		</div>
 	</div>
@@ -97,7 +95,7 @@
 					</div>
 					<textarea class="form-control" placeholder="Mensagem" rows="6"></textarea>
 				</div>
-				<a class="btn-geral" href="">Enviar</a>
+				<a class="btn-enviar" href="">Enviar</a>
 			</form>
 		</div>
 	</div>

@@ -69,16 +69,29 @@ ul.nav>li>a:hover {
     color: #eb754b!important;
 }
 
+.vitrine .item img {
+    height: 600px;
+    object-fit: cover;
+}
+
 .vitrine .owl-prev {
     position: absolute;
-    top: 33%;
     left: 17%;
+    margin-top: -350px;
+}
+
+.vitrine .owl-prev i:hover {
+    color: #b53a0c;
 }
 
 .vitrine .owl-next {
     position: absolute;
-    top: 33%;
     right: 17%;
+    margin-top: -350px;
+}
+
+.vitrine .owl-next i:hover {
+    color: #b53a0c;
 }
 
 .vitrine .fa-angle-left {
@@ -95,11 +108,11 @@ ul.nav>li>a:hover {
 
 /*SOBRE*/
 .sobre {
-    margin: 100px;
+    margin: 100px 0;
 }
 
-.sobre .sobre-texto {
-    margin-left: 50px;
+.sobre .perfil-foto img {
+    width: 100%;
 }
 
 .sobre .sobre-texto h2, h1 {
@@ -114,6 +127,11 @@ ul.nav>li>a:hover {
     padding-top: 15px;
 }
 
+.btn-geral:hover {
+    background-color: #b53a0c;
+    color: #fff;
+}
+
 .sobre .paragrafo-sobre {
     margin-bottom: 30px;
     text-align: justify;
@@ -124,8 +142,15 @@ ul.nav>li>a:hover {
 .destaque {
     display: flex;
 }
+
+.destaque .img-destaque {
+    width: 35%;
+}
+
 .destaque .img-destaque img {
     height: 450px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .destaque .consultoria-texto {
@@ -134,6 +159,11 @@ ul.nav>li>a:hover {
     padding: 20px 250px 70px 80px;
     text-align: justify;
     height: 450px;
+    width: 65%;
+}
+
+.destaque .consultoria-texto p {
+    max-width: 700px;
 }
 
 .destaque .consultoria-texto ul {
@@ -158,7 +188,9 @@ ul.nav>li>a:hover {
     margin: 90px 0;
     background-image: url('../images/bg-cliente.jpg');
     height: 250px;
-    width: 1152px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .area-texto {
@@ -168,11 +200,13 @@ ul.nav>li>a:hover {
 .area-cliente .area-texto {
     color: #ffffff;
     position: absolute;
-    margin: 60px 0;
     width: 1152px;
     display: flex;
-    align-items: flex-end;
     justify-content: space-around;
+}
+
+.area-cliente .area-texto h3 {
+    margin-top: 0;
 }
 
 .form-area input {
@@ -194,6 +228,67 @@ ul.nav>li>a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+
+.fale-conosco .form-group .form-control {
+    height: 50px;
+}
+
+.fale-conosco .form-row {
+    margin-bottom: 30px;
+}
+
+.fale-conosco .btn-enviar {
+    background-color: #ea6837;
+    padding: 17px 50px;
+    color: #fff;
+    border-radius: 7px;
+    padding-top: 15px;
+    float: right;
+}
+
+footer {
+    margin: 60px 0 0;
+    padding: 35px;
+    background-color: #000826;
+    width: 100%;
+}
+
+footer .rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .rodape .contato {
+    display: flex;
+}
+
+footer .rodape .contato p {
+    color: #fff;
+}
+
+footer .rodape .contato .fa {
+    color: #ea6837;
+    margin: 8px;
+    font-size: 20px;
+}
+
+footer .rodape .redes {
+    display: flex;
+}
+
+footer .rodape .redes .fa {
+    font-size: 25px;
+    color: #000826;
+    background-color: #ea6837;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {
@@ -238,8 +333,72 @@ ul.nav>li>a:hover {
     .navbar-nav>li>a {
         padding: 15px 10px!important;
     }
+
+    .destaque {
+    flex-direction: column;
+    }
+
+    .destaque .img-destaque {
+        width: 100%;
+    }
+
+    .destaque .consultoria-texto {
+        width: 100%;
+        padding: 5px 25px 5px 10px;
+    }
+    
+    .destaque .consultoria-texto ul {
+        line-height: 1.5;
+        margin: 5px;
+    }
+
+    .area-cliente {
+        flex-direction: column;
+    }
+
+    .area-cliente .area-texto {
+        max-width: 100%;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    .area-cliente .area-texto .btn-geral {
+        position: absolute;
+        margin-left: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1050px) {
+    .destaque .consultoria-texto {
+        padding: 20px 20px 70px 20px;
+    }
+
+    .area-cliente .area-texto {
+        max-width: 100%;
+    }
+    .area-cliente .form-area {
+        margin-right: 10px;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .destaque .consultoria-texto {
+        padding: 20px 20px 70px 20px;
+        font-size: 12px;
+    }
+
+    .destaque .consultoria-texto ul {
+        line-height: 1.5;
+        margin: 10px;
+    }
+
+    .area-cliente .area-texto {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .area-cliente .area-texto .form-area input {
+        margin: 10px 0;
+    }
 
 }
 @media (min-width: 992px) and (max-width: 1100px) {
