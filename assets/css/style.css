@@ -121,10 +121,9 @@ ul.nav>li>a:hover {
 
 .btn-geral {
     background-color: #ea6837;
-    padding: 17px;
+    padding: 20px 30px;
     color: #fff;
     border-radius: 7px;
-    padding-top: 15px;
 }
 
 .btn-geral:hover {
@@ -135,6 +134,11 @@ ul.nav>li>a:hover {
 .sobre .paragrafo-sobre {
     margin-bottom: 30px;
     text-align: justify;
+    padding: 15px 0 0;
+}
+
+.sobre .sobre-texto h1 h2 {
+    margin: 0;
 }
 
 /*DESTAQUE*/
@@ -215,6 +219,7 @@ ul.nav>li>a:hover {
     width: 215px;
     border-radius: 7px;
     border-width: 1px;
+    padding: 10px;
 }
 
 /*FALE CONOSCO*/
@@ -222,11 +227,6 @@ ul.nav>li>a:hover {
     text-align: center;
     color: #ea6837;
     margin-bottom: 40px;
-} 
-
-.fale-conosco .form-group {
-    padding-right: 0;
-    padding-left: 0;
 }
 
 .fale-conosco .form-group .form-control {
@@ -237,12 +237,7 @@ ul.nav>li>a:hover {
     margin-bottom: 30px;
 }
 
-.fale-conosco .btn-enviar {
-    background-color: #ea6837;
-    padding: 17px 50px;
-    color: #fff;
-    border-radius: 7px;
-    padding-top: 15px;
+.fale-conosco .btn-geral {
     float: right;
 }
 
@@ -287,6 +282,11 @@ footer .rodape .redes .fa {
     justify-content: center;
     margin-right: 10px;
     align-items: center;
+    opacity: 1;
+}
+
+footer .rodape .redes .fa:hover {
+    opacity: .5;
 }
 
 
@@ -294,7 +294,7 @@ footer .rodape .redes .fa {
 @media (max-width: 767px) {
     #bs-example-navbar-collapse-1 {
         float: none;
-        background: transparent;
+        background: #fff;
         z-index: 300;
         position: relative;
         min-height: 300px;
@@ -308,9 +308,7 @@ footer .rodape .redes .fa {
         padding: 15px 15px;
         margin-top: 20px;
     }
-    .navbar-toggle {
-        margin-top: 75px;
-    }
+    
     .navbar-header {
         height: 90px;
     }
@@ -333,38 +331,63 @@ footer .rodape .redes .fa {
     .navbar-nav>li>a {
         padding: 15px 10px!important;
     }
-
-    .destaque {
-    flex-direction: column;
+    .navbar-brand .logo {
+        width: 200px;
     }
-
+    .vitrine .item img {
+        height: 300px;
+    }
+    .vitrine .owl-nav {
+        display: none;
+    }
+    .sobre {
+        margin: 50px 0;
+    }
+    .sobre .perfil-foto img {
+        margin-bottom: 20px;
+    }
+    .destaque {
+        flex-direction: column;
+    }
     .destaque .img-destaque {
         width: 100%;
     }
-
     .destaque .consultoria-texto {
         width: 100%;
         padding: 5px 25px 5px 10px;
+        height: auto;
     }
-    
     .destaque .consultoria-texto ul {
         line-height: 1.5;
         margin: 5px;
     }
-
     .area-cliente {
         flex-direction: column;
     }
-
+    .area-cliente {
+        margin: 50px 0;
+        height: 320px;
+        align-items: center;
+    }
     .area-cliente .area-texto {
         max-width: 100%;
         flex-direction: column;
-        margin: 25px;
+        padding: 25px;
     }
-
+    .area-cliente .area-texto .form-area input {
+        width: 100%;
+        margin: 10px 0;
+    }
     .area-cliente .area-texto .btn-geral {
-        position: absolute;
-        margin-left: 10px;
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+    footer .rodape {
+        display: block;
+    }
+    footer .rodape .contato {
+        display: block;
     }
 }
 @media (min-width: 992px) and (max-width: 1050px) {
@@ -391,13 +414,32 @@ footer .rodape .redes .fa {
         margin: 10px;
     }
 
+    .sobre .sobre-texto {
+        padding: 20px;
+    }
+
+    .area-cliente {
+        margin: 30px 0;
+    }
+
     .area-cliente .area-texto {
         padding: 30px;
         width: 100%;
     }
 
+    .area-cliente .area-texto .form-area {
+        margin-right: 10px;
+    }
+
     .area-cliente .area-texto .form-area input {
         margin: 10px 0;
+        width: 100%;
+    }
+
+    .area-cliente .area-texto .btn-geral {
+        display: table;
+        width: 100%;
+        text-align: center;
     }
 
 }

@@ -6,6 +6,7 @@
 			<a class="item" href="#"><img src="assets/images/banner-vanielly.jpg" alt=""></a>
 			<a class="item" href="#"><img src="assets/images/banner-vanielly.jpg" alt=""></a>
 		</div>
+
 	</div>
 </section>
 
@@ -27,6 +28,7 @@
 				</div>
 				<a class="btn-geral" href="#">SAIBA MAIS</a>
 				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -46,7 +48,7 @@
 				<li><i class="fa fa-check" aria-hidden="true"></i>Seleção e capacitação de vendedores</li>
 				<li><i class="fa fa-check" aria-hidden="true"></i>Negócio de Impacto Social</li>
 				<li><i class="fa fa-check" aria-hidden="true"></i>Mapeamento de processos</li>
-				<li class="texto-preto"><i class="fa fa-check" aria-hidden="true"></i>Treinamentos e palestras</li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>Treinamentos e palestras</li>
 			</ul>
 			<ul>
 				<li><i class="fa fa-check" aria-hidden="true"></i>Empreendedorismo</li>
@@ -71,7 +73,7 @@
 				<div class="form-area">
 					<input type="text" name="">
 					<input type="text" name="">
-					<a class="btn-geral" href="">Enviar</a>
+					<a class="btn-geral" href="">ENVIAR</a>
 				</div>
 			</div>
 		</div>
@@ -87,15 +89,17 @@
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Seu nome">
 					</div>
-					<div class="form-group col-md-6">
-						<input type="text" class="form-control" placeholder="E-mail">
-					</div>
-					<div class="form-group col-md-6">
-						<input type="text" class="form-control" placeholder="Telefone">
+					<div class="row">
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" placeholder="E-mail">
+						</div>
+						<div class="form-group col-md-6">
+							<input type="text" class="form-control" placeholder="Telefone">
+						</div>
 					</div>
 					<textarea class="form-control" placeholder="Mensagem" rows="6"></textarea>
 				</div>
-				<a class="btn-enviar" href="">Enviar</a>
+				<a class="btn-geral" href="">ENVIAR</a>
 			</form>
 		</div>
 	</div>
