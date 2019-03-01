@@ -36,10 +36,10 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="">PERFIL</a></li>
-                            <li><a href="">CONSULTORIA</a></li>
-                            <li><a href="">ÁREA DO CLIENTE</a></li>
-                            <li><a href="">CONTATO</a></li>
+                            <li><a class="perfil" href="#perfil">PERFIL</a></li>
+                            <li><a class="consultoria" href="#consultoria">CONSULTORIA</a></li>
+                            <li><a class="area" href="#area">ÁREA DO CLIENTE</a></li>
+                            <li><a class="contato" href="#contato">CONTATO</a></li>
                         </ul><!-- .nav -->
                     </div><!-- .navbar-collapse -->
                 </div><!-- container -->

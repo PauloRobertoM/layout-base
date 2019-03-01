@@ -15,8 +15,8 @@
                     </div>
                 </div>
             
-        	
-			
+            
+            
         </footer>
 
         <script type='text/javascript' src='assets/js/jquery.js'></script>

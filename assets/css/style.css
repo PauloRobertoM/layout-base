@@ -115,13 +115,14 @@ ul.nav>li>a:hover {
     width: 100%;
 }
 
-.sobre .sobre-texto h2, h1 {
+.sobre .sobre-texto h2, .sobre .sobre-texto h1 {
     color: #ea6837;
+    margin: 0;
 }
 
 .btn-geral {
     background-color: #ea6837;
-    padding: 20px 30px;
+    padding: 15px 30px;
     color: #fff;
     border-radius: 7px;
 }
@@ -160,7 +161,7 @@ ul.nav>li>a:hover {
 .destaque .consultoria-texto {
     background-color: #ea6837;
     color: #fff;
-    padding: 20px 250px 70px 80px;
+    padding: 20px 20px 70px 80px;
     text-align: justify;
     height: 450px;
     width: 65%;
@@ -203,8 +204,7 @@ ul.nav>li>a:hover {
 
 .area-cliente .area-texto {
     color: #ffffff;
-    position: absolute;
-    width: 1152px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -306,7 +306,7 @@ footer .rodape .redes .fa:hover {
     }
     .navbar-toggle {
         padding: 15px 15px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     
     .navbar-header {
@@ -348,6 +348,9 @@ footer .rodape .redes .fa:hover {
     }
     .destaque {
         flex-direction: column;
+    }
+    .destaque .img-destaque img {
+        height: 300px;
     }
     .destaque .img-destaque {
         width: 100%;
@@ -441,8 +444,5 @@ footer .rodape .redes .fa:hover {
         width: 100%;
         text-align: center;
     }
-
-}
-@media (min-width: 992px) and (max-width: 1100px) {
 
 }
