@@ -15,12 +15,8 @@
     <link rel='stylesheet' href='assets/css/owl.carousel.min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/style.css' type='text/css' />
 </head>
-
 <body>
     <header>
-        <div class="topo">
-            
-        </div><!-- topo -->
         <div class="nav menu">
             <nav class="navbar navbar-default" id="meuMenu">
                 <div class="container">
@@ -31,17 +27,15 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo.png" alt="Logo" /></a>
+                        <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo-vanielly.png" alt="Logo" /></a>
                     </div><!-- .navbar-header -->
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li><a href="">Inicio</a></li>
-                            <li><a href="">Ofertas</a></li>
-                            <li><a href="">Produtos</a></li>
-                            <li><a href="">novidades</a></li>
-                            <li><a href="">Nossas Lojas</a></li>
-                            <li><a href="">Sobre a Rede</a></li>
+                            <li><a class="perfil" href="#perfil">PERFIL</a></li>
+                            <li><a class="consultoria" href="#consultoria">CONSULTORIA</a></li>
+                            <li><a class="area" href="#area">ÁREA DO CLIENTE</a></li>
+                            <li><a class="contato" href="#contato">CONTATO</a></li>
                         </ul><!-- .nav -->
                     </div><!-- .navbar-collapse -->
                 </div><!-- container -->
