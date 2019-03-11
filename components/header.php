@@ -15,12 +15,8 @@
     <link rel='stylesheet' href='assets/css/owl.carousel.min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/style.css' type='text/css' />
 </head>
-
 <body>
     <header>
-        <div class="topo">
-            
-        </div><!-- topo -->
         <div class="nav menu">
             <nav class="navbar navbar-default" id="meuMenu">
                 <div class="container">
